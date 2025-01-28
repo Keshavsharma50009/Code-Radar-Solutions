@@ -5,6 +5,6 @@ char* welcome() {
 }
 
 int main() {
-    printf("%s", welcome());
+    printf("%s", welcome("You entered: %.2f",char));
     return 0;
 }
