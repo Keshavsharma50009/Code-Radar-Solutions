@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     float a;
-    sacnf("%lf",&a);
-    printf("You entered: %lf",a);
+    sacnf("%f",&a);
+    printf("You entered: %f",a);
     return 0;
 }
