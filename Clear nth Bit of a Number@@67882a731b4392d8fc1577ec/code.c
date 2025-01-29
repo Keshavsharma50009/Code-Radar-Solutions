@@ -5,4 +5,5 @@ int main(){
     scanf("%d%d",&a,&n);
    
         printf("%d",a & ~(1<<n));
+        return 0;
 }
