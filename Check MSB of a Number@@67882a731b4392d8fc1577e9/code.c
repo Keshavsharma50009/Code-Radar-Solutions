@@ -7,7 +7,6 @@ void function(){
         printf("Set");
     }
     else{printf("Not Set");}
-    return 0;
 }
 int main(){
     function();
