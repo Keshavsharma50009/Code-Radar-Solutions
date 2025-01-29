@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(){
-    int a
+    int a;
     scanf("%d ",&a);
     if (a>0){
-        printf("False\n");
+        printf("True\n");
     }
-    else{printf("True\n");}
+    else{printf("False\n");}
     return 0;
 }
