@@ -1,12 +1,9 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main(){
     int a;
-    if (a%2==0){
+    if(a%2==0){
         printf("Even");
     }
-    if (a%2!=0){
-        printf("Odd");
-    }
+    else{printf("Odd");}
     return 0;
 }
