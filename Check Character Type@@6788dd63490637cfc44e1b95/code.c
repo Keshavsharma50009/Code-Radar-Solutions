@@ -3,10 +3,10 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if(a==int){
+    if(int(a)){
         printf("Digit");
     }
-    else if(a==char){
+    else if(char(a)){
         if(a=='a','e','i','o','u'){
             printf("Vowel");
         }
