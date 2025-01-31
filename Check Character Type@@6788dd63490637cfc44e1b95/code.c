@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include<math.h>
 int main(){
     char a;
     scanf("%c",&a);
-    if(isint(a)){
+    if(isdigit(a)){
         printf("Digit");
     }
-    else if(ischar(a)){
+    else if(isalpha(a)){
         if(a=='a','e','i','o','u'){
             printf("Vowel");
         }
