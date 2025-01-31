@@ -10,7 +10,7 @@ int main(){
         if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u'){
             printf("Vowel");
         }
-        else{printf("Consonent");}
+        else{printf("Consonant");}
     }
     else{printf("Special Character");}
     return 0;
