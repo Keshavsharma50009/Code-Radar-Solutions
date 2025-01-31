@@ -6,9 +6,9 @@ int main(){
     if(a>=90){
         printf("A");
     }
-    else if(90>a>=80){printf("B");}
-    else if(80>a>=70){printf("c");}
-    else if(70>a>=60){printf("D");}
+    else if(80>=a>90){printf("B");}
+    else if(70>=a>80){printf("c");}
+    else if(60>=a>70){printf("D");}
     else{printf("F");}
     return 0;
 }
