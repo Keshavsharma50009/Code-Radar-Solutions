@@ -4,7 +4,7 @@ int main(){
     char a;
     scanf("%c",&a);
     if(isdigit(a)){
-        printf("");
+        printf("Digit");
     }
     else if(isalpha(a)){
         if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u'){
@@ -12,7 +12,7 @@ int main(){
         }
         else{printf("Consonant");}
     }
-    // else{printf("Special Character");}
+    else{printf("Special Character");}
     return 0;
 
 }
