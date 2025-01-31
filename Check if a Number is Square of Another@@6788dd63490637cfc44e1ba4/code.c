@@ -3,7 +3,7 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    if(pow(2, a)==b&&pow(2, b)==a){printf("Yes");}
+    if(pow(a, 2)==b&&pow(b, 2)==a){printf("Yes");}
     else{printf("No");}
     return 0;
 }
