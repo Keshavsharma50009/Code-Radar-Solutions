@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<math.h>
 int main(){
-    abc a;
+    int a;
     scanf("%d",&a);
     if(a==int){
         printf("Digit");
@@ -13,5 +13,6 @@ int main(){
         else{printf("Consonent");}
     }
     else{printf("Special Character");}
+    return 0;
 
 }
