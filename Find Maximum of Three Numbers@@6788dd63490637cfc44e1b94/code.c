@@ -9,6 +9,6 @@ int main(){
     else if (b>a && b>c){
         printf("%d",b);
     }
-    else{printf("%d",c)}
+    else{printf("%d",c);}
     return 0;
 }
