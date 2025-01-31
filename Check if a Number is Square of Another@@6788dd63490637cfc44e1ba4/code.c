@@ -2,7 +2,7 @@
 #include<math.h>
 int main(){
     int a,b;
-    scanf("%d %d",&a,&b);
+    scanf("%ld %ld",&a,&b);
     if(pow(a, 2)==b&&pow(b, 2)==a){printf("Yes");}
     else{printf("No");}
     return 0;
