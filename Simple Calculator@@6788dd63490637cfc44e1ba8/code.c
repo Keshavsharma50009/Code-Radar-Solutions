@@ -11,7 +11,7 @@ float a,b;
     }else if(c == '*'){
         printf("%d",a * b);
     }else if( c == '/'){
-        printf("%d",a / b);
+        printf("%.0f",a / b);
     }
 
     //if(c=='+'){printf("%.0f\n",a+b);}
