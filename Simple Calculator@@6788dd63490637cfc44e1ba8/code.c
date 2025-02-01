@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
-    int a,b;
+    float a,b;
     char c;
-    scanf("%d %d %c",&a, &b, &c);
-    if(c=='+'){printf("%d",a+b);}
-    else if (c=='-'){printf("%d",a-b);}
-    else if(c=='*'){printf("%d",a*b);}
+    scanf("%f %f %c",&a, &b, &c);
+    if(c=='+'){printf("%f",a+b);}
+    else if (c=='-'){printf("%f",a-b);}
+    else if(c=='*'){printf("%f",a*b);}
     else if (c=='/')if(b==0){printf("%f",a/b);}
     
     return 0;
