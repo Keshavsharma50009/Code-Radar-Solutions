@@ -9,8 +9,9 @@ int main(){
         printf("%.0f\n", a - b);
     }else if( c == '*'){
         printf("%.0f\n",a * b);
-    }else if( c == '/'){
-        printf("%.0f\n", a / b);
+    }else if( c == '/'){if(b!=0){printf("%.0f",a/b);}
+    else{printf("error");}
+        
     }else{
         printf("error");
     }
