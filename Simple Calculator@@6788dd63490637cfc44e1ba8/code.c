@@ -22,20 +22,20 @@ int a,b;
     //else{printf("Invalid");}
     //return 0;
 //switch(c){
-    case '+':
-    printf("%.0f\n",a+b);
-    break;
-    case '-':
-    printf("%.0f\n",a-b);
-    break;
-    case '*':
-    printf("%.0f\n",a*b);
-    break;
-    case '/':
-    printf("%.0f\n",a/b);
-    break;
-    default:
-    printf("Invalid");
+    // case '+':
+    // printf("%.0f\n",a+b);
+    // break;
+    // case '-':
+    // printf("%.0f\n",a-b);
+    // break;
+    // case '*':
+    // printf("%.0f\n",a*b);
+    // break;
+    // case '/':
+    // printf("%.0f\n",a/b);
+    // break;
+    // default:
+    // printf("Invalid");
 //}
 
     return 0;
