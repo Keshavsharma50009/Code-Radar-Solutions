@@ -7,7 +7,7 @@ int main(){
     else if (c=='-'){printf("%.0f\n",a-b);}
     else if(c=='*'){printf("%.0f\n",a*b);}
     else if (c=='/'){if((b!=0)){printf("%.0f\n",a/b);}
-    else{printf("Invalid\n")}}
+    else{printf("Invalid\n");}}
     
     return 0;
 }
