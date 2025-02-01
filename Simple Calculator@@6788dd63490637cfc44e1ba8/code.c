@@ -9,7 +9,7 @@ float a,b;
     }else if( c == '-'){
         printf("%.0f",a - b);
     }else if(c == '*'){
-        printf("%d",a * b);
+        printf("%.0f",a * b);
     }else if( c == '/'){
         printf("%.0f",a / b);
     }
