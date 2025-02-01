@@ -37,7 +37,7 @@ switch(c){
       printf("%.0f\n",a/b);
      break;
      default:
-     printf("error");
+     printf("Error");
 }
 
     return 0;
