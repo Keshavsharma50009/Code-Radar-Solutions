@@ -8,7 +8,7 @@ int main(){
     }else if( c == '-'){
         printf(" %.0f", a - b);
     }else if( c == '*'){
-        printf(" %.2f",a * b);
+        printf(" %.0f",a * b);
     }else if( c == '/'){
         printf(" %.0f", a / b);
     }else{
