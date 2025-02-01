@@ -3,16 +3,18 @@ int main(){
 float a,b;
     char c;
     scanf("%d %d %c",&a, &b, &c);
-    if(c == '+'){
-        printf("%.0f", a + b);
+    // if(c == '+'){
+        // printf("%.0f", a + b);
 
-    }else if( c == '-'){
-        printf("%.0f",a - b);
-    }else if(c == '*'){
-        printf("%.0f",a * b);
-    }else if( c == '/'){
-        printf("%.0f",a / b);
-    }
+    // }else if( c == '-'){
+        // printf("%.0f",a - b);
+    // }else if(c == '*'){
+        // printf("%.0f",a * b);
+    // }else if( c == '/'){
+        // printf("%.0f",a / b);
+    // }else{
+
+    // }
 
     //if(c=='+'){printf("%.0f\n",a+b);}
     //else if (c=='-'){printf("%.0f\n",a-b);}
@@ -21,22 +23,22 @@ float a,b;
     //else{printf("Invalid\n");}}
     //else{printf("Invalid");}
     //return 0;
-//switch(c){
-    // case '+':
-    // printf("%.0f\n",a+b);
-    // break;
-    // case '-':
-    // printf("%.0f\n",a-b);
-    // break;
-    // case '*':
-    // printf("%.0f\n",a*b);
-    // break;
-    // case '/':
-    // printf("%.0f\n",a/b);
-    // break;
-    // default:
-    // printf("Invalid");
-//}
+switch(c){
+     case '+':
+     printf("%.0f\n",a+b);
+     break;
+     case '-':
+     printf("%.0f\n",a-b);
+     break;
+     case '*':
+     printf("%.0f\n",a*b);
+     break;
+     case '/':
+      printf("%.0f\n",a/b);
+     break;
+     default:
+     printf("error");
+}
 
     return 0;
 }
