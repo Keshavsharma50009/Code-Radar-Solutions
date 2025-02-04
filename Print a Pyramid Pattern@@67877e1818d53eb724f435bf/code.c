@@ -4,12 +4,15 @@ int main(){
 int a;
 scanf("%d",&a);
 char x='*';
-for(int i=a - 1;i>= 0;i--){
-    printf(" ");
 
-}
 for(int j=1;j<a+1;j++){
-    printf("%c",x);
+    for(int i=1;i<=a-1;i++){
+    printf(" ");
+}
+for(int i=1;i<=2*i-1;i++){
+    printf("*");
+}
+printf("\n");
 }
 return 0;
 }
