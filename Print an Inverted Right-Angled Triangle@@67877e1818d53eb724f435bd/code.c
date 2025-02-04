@@ -2,8 +2,8 @@
 int main(){
     int a;
     scanf("%d",&a);
-    int x='*';
+    char x='*';
     for(int i=a; i>0; i--)
-    {printf("%c",x*i);}
+    {for(int j=0;j<i;j++){printf("%c",x)}}
     return 0;
 }
