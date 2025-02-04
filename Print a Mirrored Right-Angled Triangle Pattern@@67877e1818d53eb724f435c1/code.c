@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&a);
     char X='*';
     for(int i=1;i<=a;i++){
-        for(int j=1;j<=a-i;j++){
+        for(int j=1;j<=a-j;j++){
             printf("%c",X);
         }
         printf("\n");
