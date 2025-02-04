@@ -6,7 +6,12 @@ int main(){
     else{
         x=1;
         for(int i=2;i*i<=a;i++)
-    if(a%i==0){printf("Not Prime");}
-    printf("Prime");}
+    if(a%i==0)
+    
+    {x=0;
+    break;}
+   }
+   if(x){printf("Prime");}
+   else{printf("Not Prime");}
     return 0;
 }
