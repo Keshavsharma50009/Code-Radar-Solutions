@@ -3,8 +3,8 @@ int main(){
 int a;
 scanf("%d",&a);
 char x='*';
-for(i=0;i<a+1;i++){
-    for(j=i;j>0;j--){
+for(int i=0;i<a+1;i++){
+    for(int j=i;j>0;j--){
      printf(" %c",x);
     }
     printf("\n");
