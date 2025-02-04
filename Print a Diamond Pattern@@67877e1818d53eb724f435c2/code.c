@@ -8,6 +8,7 @@ int main(){
             printf(" ");
         }
         for(int i=1;i<=2*j-1;i++){
+            printf(" %c",x);
         
         }
         printf("\n");
