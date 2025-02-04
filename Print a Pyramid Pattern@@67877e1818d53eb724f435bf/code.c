@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main(){
+    int a;
     scanf("%d",&a);
     char x='*';
     for(int i=1;i>n+1;i++){
