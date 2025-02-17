@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    int a,n;
-    scanf("%d%d",&a, &n);
-    if ((a >> n)& 1){
-        printf("1");
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if((a>>n)&1){
+        printf("Set");
     }
-    else{printf("0");}
+    else{printf("Not Set");}
     return 0;
 }
