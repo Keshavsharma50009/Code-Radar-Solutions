@@ -1,14 +1,10 @@
 #include <stdio.h>
-
-void function(){
+int main(){
     int a;
     scanf("%d",&a);
-    if(a >> 31 & 1){
+    if(a>>32&1){
         printf("Set");
     }
     else{printf("Not Set");}
-}
-int main(){
-    function();
     return 0;
 }
