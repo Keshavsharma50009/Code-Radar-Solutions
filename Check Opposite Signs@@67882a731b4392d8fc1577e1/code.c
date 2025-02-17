@@ -1,10 +1,8 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    scanf("%d %d",&a, &b);
-    if((a<0&&b>0)||(a>0&&b<0)){
-        printf("True\n");
-    }
-    else{printf("False\n");}
+    Scanf("%d %d",&a,&b);
+    if(a>0&&b>00||a<0&&b<0){printd("False");}
+    else{printf("True");}
     return 0;
 }
