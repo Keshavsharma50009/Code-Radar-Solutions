@@ -5,7 +5,7 @@ int main(){
     pro=1;
     for(int i=1;i<=10;i++){
         pro=pro*i;
-        printf("%d",a x i = pro);
+        printf(a "x %d%d ",i = pro);
         printf("\n");
     }
     return 0;
