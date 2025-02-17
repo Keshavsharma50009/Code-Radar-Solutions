@@ -2,9 +2,9 @@
 int main(){
     int a;
     scanf("%d",&a);
-    int pro=1;
+    
     for(int i=1;i<=10;i++){
-        int pro=pro*a;
+        int pro=a*i;
         printf("%d x %d = %d",a,i,pro);
         printf("\n");
     }
