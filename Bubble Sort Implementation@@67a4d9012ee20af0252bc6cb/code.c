@@ -21,27 +21,27 @@ void printArray(int arr[], int n) {
     printf("\n");
 }
 
-int main() {
-    int n;
-    scanf("%d", &n);
+// int main() {
+//     int n;
+//     scanf("%d", &n);
 
-    // Dynamically allocate memory for the array
-    int *arr = (int *)malloc(n * sizeof(int));
+//     // Dynamically allocate memory for the array
+//     int *arr = (int *)malloc(n * sizeof(int));
 
-    if (arr == NULL) {
-        printf("Memory allocation failed\n");
-        return 1;
-    }
+//     if (arr == NULL) {
+//         printf("Memory allocation failed\n");
+//         return 1;
+//     }
 
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
+//     for (int i = 0; i < n; i++) {
+//         scanf("%d", &arr[i]);
+//     }
 
-    bubbleSort(arr, n);
-    printArray(arr, n);
+//     bubbleSort(arr, n);
+//     printArray(arr, n);
 
-    // Free allocated memory
-    free(arr);
+//     // Free allocated memory
+//     free(arr);
 
-    return 0;
-}
+//     return 0;
+// }
